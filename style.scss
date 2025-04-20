@@ -1,0 +1,57 @@
+/* Arquivo básico de estilo para Jekyll */
+$base-font-family: Arial, sans-serif;
+$base-font-size: 16px;
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $base-font-family;
+    color: #222;
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, footer {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
